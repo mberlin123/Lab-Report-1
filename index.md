@@ -9,7 +9,7 @@ You can connect to UCSD servers for CSE 15L remotely through a program called ss
 ssh cs15lwi23[XX]@ieng6.ucsd.edu
 ``` 
 [XX] should be replaced with the unique letters for your username. After entering this command, you will be prompted for your password. If you successfully login, you should see this window:
-![Image](Screenshot 2023-01-16 205830.png)
+![Image](Screenshot 2023-01-16 205737.png)
 
 ## Step 3: Trying some commands
 You can try some commands to move around the filesystem in the server you have connected to:
@@ -21,7 +21,7 @@ mkdir fileName : make a new directory called fileName
 cat fileName : prints the contents of a file called filename
 
 Here are some examples of what commands should look like and do in ssh:
-![Image](Screenshot 2023-01-16 205737.png)
+![Image](Screenshot 2023-01-16 205830.png)
 
 ## Conclusion
 
