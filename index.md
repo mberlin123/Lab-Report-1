@@ -27,3 +27,4 @@ Here are some examples of what commands should look like and do in ssh:
 
 In conclusion, connecting to a server through VSCode and ssh is both convienent and useful! Have fun and explore what you can do!
  
+ 
