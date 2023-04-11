@@ -1,4 +1,4 @@
-## Hi, after many many repeated and failed attempts to change my password and use the cse15sp23 account, I was forced to use my personal ieng6 account to capture these screenshots due to time constraints.
+## Hi, after many many repeated and failed attempts to change my password and use the cse15sp23 account, I was forced to use my personal ieng6 account to capture these screenshots due to time constraints with the deadline. However, I am working to resolve this issue and once it is resolved will update and resubmit this lab report.
 
 # How to Login to ieng6
 
@@ -11,7 +11,7 @@ You can connect to UCSD servers for CSE 15L remotely through a program called ss
 ssh cs15lsp23[XX]@ieng6.ucsd.edu
 ``` 
 [XX] should be replaced with the unique letters for your username. After entering this command, you will be prompted for your password. If you successfully login, you should see this window:
-![Image](Screenshot 2023-01-16 205830.png)
+![Image](Screenshot 2023-04-10 230609.png)
 
 ## Step 3: Trying some commands
 You can try some commands to move around the filesystem in the server you have connected to:
