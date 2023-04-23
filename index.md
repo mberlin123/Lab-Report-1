@@ -36,9 +36,13 @@ You can try some commands to move around the filesystem in the server you have c
 
 * `touch fileName.txt : make a new file called "fileName.txt" (any other extension besides ".txt" can also be used)`
 
+* `rm fileName.txt : removes a file called "fileName.txt"`
+
 * `nano fileName.txt : opens the file "fileName.txt" in a simple in-terminal text editor`
 
 * `cat fileName : prints the contents of a file called "filename"`
+
+* `exit : exits ssh`
 
 Here are some examples of what a sample of these commands should look like and do in ssh:
 ![Image](Screenshot 2023-04-10 215931.png)
