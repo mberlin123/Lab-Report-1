@@ -45,7 +45,7 @@ You can try some commands to move around the filesystem in the server you have c
 * `exit : exits ssh`
 
 Here are some examples of what a sample of these commands should look like and do in ssh:
-![Image](Screenshot 2023-04-10 215931.png)
+![Image](screenshot2.png)
 
 ## Conclusion
 
