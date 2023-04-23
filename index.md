@@ -1,11 +1,19 @@
-## Hi, after many many repeated and failed attempts to change my password and use the cse15sp23 account, I was forced to use my personal ieng6 account to capture these screenshots due to time constraints with the deadline. However, I am working to resolve this issue and once it is resolved will update and resubmit this lab report.
-
 # How to Login to ieng6
 
 ## Step 1: Installing VSCode
-VSCode is a program and code editor that can be used to create and edit programs both locally and on a server. It can be installed from it's [website](https://code.visualstudio.com/). After installing, open the program. It should look like this: ![Image](Screenshot 2023-01-16 205810.png)
+VSCode is a program and code editor that can be used to create and edit programs both locally and on a server. It It is free and open source, and can be installed from it's [website](https://code.visualstudio.com/). To install VS Code, follow these steps:
+
+1. Go to the VS Code website and click on the Download button for your operating system (Windows, Mac, or Linux).
+2. Run the installer and follow the instructions on the screen.
+3. Once the installation is complete, you can launch VS Code.
+
+If the installation was successful, when you launch VS Code you should see a similar window to this:  ![Image](Screenshot 2023-01-16 205810.png)
 
 ## Step 2: Connecting remotely to ieng6
+Before connecting to ieng6 (UCSD's dedicated servers for CS related majors), two initial setup steps must be completed. First, you need to find your CSE15L username. This can be done on UCSD's [Account Lookup website](https://sdacs.ucsd.edu/~icc/index.php). Enter your username and student ID in the top two boxes and click "Submit" directly under. On the next page you should see your CSE15L username underneath the section entitled "Additional Accounts" near the top of the page. It should take the form of a button with the text "cs15lsp23xx", where "xx" is unique to you. Write down your username so you don't forget it.
+
+The second step to connect to ieng6 is to reset your CSE15L password. This can be done by clicking the button containing your username and then clicking "Global Password Change Tool" on the next page, or by going directly to UCSD's [password reset website](password.ucsd.edu). In the text entry box that says to "Enter your username", enter your course username ("cs15lsp23xx") and reset your password. Note: It may take up to 15 minutes for the password change to take effect!
+
 You can connect to UCSD servers for CSE 15L remotely through a program called ssh in the command window. Open the command window by clicking View -> Terminal in the top bar. You can remotely connect through ssh to UCSD servers using the following command:
 ```
 ssh cs15lsp23[XX]@ieng6.ucsd.edu
