@@ -28,13 +28,19 @@ You can try some commands to move around the filesystem in the server you have c
 
 * `ls : lists the files in the directory you are currently in`
 
-* `cd folder: move to a sub directory called folder (or a parent directory using cd ..)`
+* `cd folder: move to a sub directory called "folder" (or a parent directory using cd ..)`
 
-* `mkdir fileName : make a new directory called fileName`
+* `mkdir folder : make a new directory called "folder"`
 
-* `cat fileName : prints the contents of a file called filename`
+* `rmdir folder : remove a directory called "folder"`
 
-Here are some examples of what commands should look like and do in ssh:
+* `touch fileName.txt : make a new file called "fileName.txt" (any other extension besides ".txt" can also be used)`
+
+* `nano fileName.txt : opens the file "fileName.txt" in a simple in-terminal text editor`
+
+* `cat fileName : prints the contents of a file called "filename"`
+
+Here are some examples of what a sample of these commands should look like and do in ssh:
 ![Image](Screenshot 2023-04-10 215931.png)
 
 ## Conclusion
