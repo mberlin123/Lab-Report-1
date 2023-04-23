@@ -12,13 +12,13 @@ If the installation was successful, when you launch VS Code you should see a sim
 ## Step 2: Connecting remotely to ieng6
 Before connecting to ieng6 (UCSD's dedicated servers for CS related majors), two initial setup steps must be completed. First, you need to find your CSE15L username. This can be done on UCSD's [Account Lookup website](https://sdacs.ucsd.edu/~icc/index.php). Enter your username and student ID in the top two boxes and click "Submit" directly under. On the next page you should see your CSE15L username underneath the section entitled "Additional Accounts" near the top of the page. It should take the form of a button with the text "cs15lsp23xx", where "xx" is unique to you. Write down your username so you don't forget it.
 
-The second step to connect to ieng6 is to reset your CSE15L password. This can be done by clicking the button containing your username and then clicking "Global Password Change Tool" on the next page, or by going directly to UCSD's [password reset website](password.ucsd.edu). In the text entry box that says to "Enter your username", enter your course username ("cs15lsp23xx") and reset your password. Note: It may take up to 15 minutes for the password change to take effect!
+The second step to connect to ieng6 is to reset your CSE15L password. This can be done by clicking the button containing your username and then clicking "Global Password Change Tool" on the next page, or by going directly to UCSD's [password reset website](password.ucsd.edu). In the text entry box that says to "Enter your username", enter your course username ("cs15lsp23xx") and on the next page reset your password. Remember your password because you will need it for the next step! (Note: It may take up to 15 minutes for the password change to take effect)
 
-You can connect to UCSD servers for CSE 15L remotely through a program called ssh in the command window. Open the command window by clicking View -> Terminal in the top bar. You can remotely connect through ssh to UCSD servers using the following command:
+Now that your account is setup, you can connect to UCSD servers for CSE 15L remotely through a program called ssh in the command window. Open the command window in VS Code by clicking View -> Terminal in the top bar. You can remotely connect through ssh to UCSD servers using the following command:
 ```
 ssh cs15lsp23[XX]@ieng6.ucsd.edu
 ``` 
-[XX] should be replaced with the unique letters for your username. After entering this command, you will be prompted for your password. If you successfully login, you should see this window:
+As before, [XX] should be replaced with the unique letters for your username. After entering this command, you will be prompted for your CSE15L password (the same one you just reset). When you type your password, it will be invisible and won't appear on the screen. Don't worry, this is a normal part of SSH and your password is entering correctly (just be careful to not make any typos)! If you successfully login, you should see this window:
 ![Image](Screenshot 2023-04-10 230609.png)
 
 ## Step 3: Trying some commands
