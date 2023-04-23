@@ -19,6 +19,7 @@ Now that your account is setup, you can connect to UCSD servers for CSE 15L remo
 ssh cs15lsp23[XX]@ieng6.ucsd.edu
 ``` 
 As before, [XX] should be replaced with the unique letters for your username. After entering this command, you will be prompted for your CSE15L password (the same one you just reset). When you type your password, it will be invisible and won't appear on the screen. Don't worry, this is a normal part of SSH and your password is entering correctly (just be careful to not make any typos)! If you successfully login, you should see this window:
+
 ![Image](screenshot1.png)
 
 ## Step 3: Trying some commands
