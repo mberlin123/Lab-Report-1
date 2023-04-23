@@ -25,9 +25,13 @@ As before, [XX] should be replaced with the unique letters for your username. Af
 You can try some commands to move around the filesystem in the server you have connected to:
 
 `pwd : prints the directory you are currently in
+
 ls : lists the files in the directory you are currently in
+
 cd folder: move to a sub directory called folder (or a parent directory using cd ..)
+
 mkdir fileName : make a new directory called fileName
+
 cat fileName : prints the contents of a file called filename`
 
 Here are some examples of what commands should look like and do in ssh:
