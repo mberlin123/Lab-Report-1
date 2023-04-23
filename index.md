@@ -49,4 +49,4 @@ Here are some examples of what a sample of these commands should look like and d
 
 ## Conclusion
 
-In conclusion, connecting to a server through VSCode and ssh is both convienent and useful! Have fun and explore what you can do!
+In conclusion, connecting to a server through VSCode and ssh is both convienent and useful! You can access files, run commands, and edit code from anywhere. Have fun and explore what you can do!
